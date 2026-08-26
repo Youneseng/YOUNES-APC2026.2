@@ -1,0 +1,15 @@
+loop 	INP
+	STA N
+	BRZ HLT
+
+
+	LDA count
+	ADD N
+	STA count
+	OUT
+	BRA  loop
+
+N 	DAT
+count 	DAT 0 
+
+

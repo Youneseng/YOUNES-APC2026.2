@@ -1,0 +1,36 @@
+        INP
+        STA A
+        INP
+        STA B
+        BRZ ERRO       
+
+        LDA A
+        STA R          
+        LDA ZERO
+        STA Q          
+
+LOOP    LDA R
+        SUB B
+        BRP CONT       
+        BRA FEITO
+
+CONT    STA R          
+        LDA Q
+        ADD ONE
+        STA Q          
+        BRA LOOP
+
+FEITO   LDA Q
+        OUT            
+        LDA R
+        OUT            
+        HLT
+
+ERRO    HLT            
+
+A       DAT 0
+B       DAT 0
+R       DAT 0
+Q       DAT 0
+ZERO    DAT 0
+ONE     DAT 1
