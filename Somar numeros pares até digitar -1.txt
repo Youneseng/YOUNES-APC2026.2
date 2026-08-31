@@ -1,0 +1,35 @@
+LOOP2   INP
+        STA A
+        ADD ONE
+        BRZ DONE       
+        LDA A
+        STA R          
+        LDA ZERO
+        STA Q
+        LDA B          
+LOOP    LDA R
+        SUB B
+        BRP CONT       
+        BRA COUNT
+CONT    STA R          
+        LDA Q
+        ADD ONE
+        STA Q          
+        BRA LOOP
+COUNT   LDA R
+        BRZ TTL
+        BRA LOOP2
+TTL     LDA TOTAL
+        ADD A 
+        STA TOTAL
+        BRA LOOP2
+DONE    LDA TOTAL
+        OUT
+        HLT           
+A       DAT 
+B       DAT 2
+R       DAT 
+Q       DAT 
+ZERO    DAT 0
+ONE     DAT 1
+TOTAL   DAT 0
