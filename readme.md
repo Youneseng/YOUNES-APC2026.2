@@ -1,0 +1,1 @@
+semana 4 introdução ao codeAI e realizar as 6 primeiras lições. 
