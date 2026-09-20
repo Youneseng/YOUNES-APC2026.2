@@ -1,4 +1,5 @@
-```var horse = createSprite(200, 150);
+```
+var horse = createSprite(200, 150);
 horse.setAnimation("horse");
 horse.setCollider("circle");
 var rainbow = createSprite(400, 370);
@@ -17,7 +18,8 @@ function draw() {
   drawSprites();
 }
 ```
-```var roller = createSprite(200, 200);
+```
+var roller = createSprite(200, 200);
 roller.scale = 2;
 roller.setAnimation("roller_1");
 roller.setCollider("rectangle",0,0,40,180,30);// Use .setCollider() with all 6 parameters.
