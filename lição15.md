@@ -1,4 +1,5 @@
-```var rock = createSprite(200, 350);
+```
+var rock = createSprite(200, 350);
 rock.setAnimation("rock");
 rock.velocityY =  -10;
 rock.rotationSpeed = 2;
@@ -12,7 +13,8 @@ function draw() {
   drawSprites();
 }
 ```
-```var plane = createSprite(50, 350);
+```
+var plane = createSprite(50, 350);
 plane.setAnimation("plane");
 var rock = createSprite(150, 350);
 rock.setAnimation("rock");
