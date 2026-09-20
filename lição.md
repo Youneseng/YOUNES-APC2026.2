@@ -1,0 +1,27 @@
+```#Avaliação
+
+var grass = createSprite(200,200);
+grass.setAnimation("floating_grass");
+var alien = createSprite(180,100);
+alien.setAnimation("alien");
+alien.scale = 1.3;
+var robot = createSprite(300,300);
+robot.setAnimation("robot");
+robot.scale = 0.2;
+drawSprites();
+fill("black");
+textSize(20);
+text("Hi!", 200, 50);
+textSize(30);
+text("Hello!", 300, 220);
+```
+
+```#Desafio
+
+fill("white");
+stroke("black");
+strokeWeight(5);
+textSize(20);
+text("Four score and seven years ago...", 30, 200);
+```
+
