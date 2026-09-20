@@ -10,7 +10,7 @@ var score = 0;
 
 function draw() {
   
-  if (score < 5) {background("white");}else{drawBackground();drawClouds();drawTrees();drawFence();}
+  if (score < 10) {background("white");}else{drawBackground();drawClouds();drawTrees();drawFence();}
   
   if(keyDown("left")){
     bunny.x = bunny.x - 3;
@@ -34,7 +34,6 @@ function draw() {
 function setCoin(){coin.velocityY = randomNumber(2,3);
 coin.x = randomNumber(10,390);
 coin.y = 10;
-
 }
 
 function drawBackground(){
