@@ -114,7 +114,7 @@ function draw() {
     text("YOU WIN!", 100, 200);
 
     textSize(20);
-    text("Score: 20", 150, 240);}
+    text("Score: 24", 150, 240);}
     textSize(20);
     fill("red");
     text("Score: " + score, 10, 10, 100, 100);
