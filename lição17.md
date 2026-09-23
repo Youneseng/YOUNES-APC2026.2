@@ -1,4 +1,4 @@
-```
+```#Avaliação
 var coin = createSprite(200,10);
 coin.setAnimation("coin_gold_1");
 setCoin();
@@ -88,7 +88,7 @@ function drawFence(){
   line(380,350,380,380);
 }
 ```
-```
+```#Desafio
 var sun = createSprite(80,60);
 sun.setAnimation("sun_happy_1");
 
