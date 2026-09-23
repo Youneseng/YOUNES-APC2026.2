@@ -1,4 +1,4 @@
-```
+```#Game
 var knife = createSprite(-50, -50);
 knife.setAnimation("knife");
 knife.scale = 0.2;
