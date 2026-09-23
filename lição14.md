@@ -1,4 +1,4 @@
-```
+```#Avaliação
 var horse = createSprite(200, 150);
 horse.setAnimation("horse");
 horse.setCollider("circle");
@@ -18,7 +18,7 @@ function draw() {
   drawSprites();
 }
 ```
-```
+```#Desafio
 var roller = createSprite(200, 200);
 roller.scale = 2;
 roller.setAnimation("roller_1");
