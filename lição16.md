@@ -1,4 +1,4 @@
-```
+```#Avaliação
 var giraffe = createSprite(50, 50);
 giraffe.setAnimation("giraffe");
 giraffe.velocityX = 3;
@@ -35,7 +35,7 @@ snake.bounceOff(pig);
   drawSprites();
 }
 ```
-```
+```#Desafio
 var basketball = createSprite(100, 0);
 basketball.setAnimation("basketball");
 basketball.bounciness = 0.8;
