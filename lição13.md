@@ -1,4 +1,4 @@
-```avaliação
+```#Avaliação
 var fish = createSprite(200, 200);
 fish.setAnimation("fishR");
 fish.velocityX = 4;
@@ -35,7 +35,7 @@ function draw() {
   drawSprites();
 }
 ```
-```Desafio
+```#Desafio
 var alien = createSprite(50,200);
 alien.setAnimation("alien");
 alien.velocityX = 0;
