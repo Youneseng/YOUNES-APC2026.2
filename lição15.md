@@ -1,4 +1,4 @@
-```
+```#Avaliação
 var rock = createSprite(200, 350);
 rock.setAnimation("rock");
 rock.velocityY =  -10;
@@ -13,7 +13,7 @@ function draw() {
   drawSprites();
 }
 ```
-```
+```#Desafio
 var plane = createSprite(50, 350);
 plane.setAnimation("plane");
 var rock = createSprite(150, 350);
