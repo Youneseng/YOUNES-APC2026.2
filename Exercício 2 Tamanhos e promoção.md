@@ -21,6 +21,6 @@ int main(void) {
     return 0;
 }
 ```
-´´´
+```
 sizeof, promoção, truncamento, unsigned wrap
-´´´
+```
